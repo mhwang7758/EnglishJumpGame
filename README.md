@@ -6,5 +6,5 @@
 在夜神模拟器跑太卡了，待有时间优化
 
 # 效果
-[英语答题小游戏](https://www.52code.tech/images/github/english-jump-game.gif)
+![英语小游戏效果图](https://www.52code.tech/images/github/english-jump-game.gif)
 
