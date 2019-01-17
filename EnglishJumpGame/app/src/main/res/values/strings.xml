@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EnglishJumpGame</string>
+    <string name="modify">修改</string>
+    <string name="delete">删除</string>
+    <string name="question">花儿为什么这样红？</string>
+    <string name="add_question">添加问题</string>
+    <string name="reset_all_question_state">所有问题置为未回答</string>
+    <string name="hint_question">请输入问题</string>
+    <string name="hint_question_num">请输入问题编号</string>
+    <string name="hint_answer">请输入答案</string>
+    <string name="hint_your_answer">请输入您的答案</string>
+    <string name="hint_no_question">没有可回答的问题啦!</string>
+    <string name="hint_find_no_question">找不到问题</string>
+    <string name="hint_no_answer">找不到该问题答案</string>
+    <string name="hint_wrong_answer">回答错误！剩余回答次数：</string>
+    <string name="answered">已回答?</string>
+    <string name="restart">重新开始</string>
+    <string name="hint_modify_success">修改成功</string>
+</resources>

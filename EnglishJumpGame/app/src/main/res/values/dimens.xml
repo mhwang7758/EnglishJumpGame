@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_normal">60dp</dimen>
+    <dimen name="item_small">30dp</dimen>
+
+    <dimen name="font_normal">20sp</dimen>
+    <dimen name="font_large">25sp</dimen>
+
+    <dimen name="margin_large">25dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+
+    <dimen name="dialog_width">500dp</dimen>
+</resources>

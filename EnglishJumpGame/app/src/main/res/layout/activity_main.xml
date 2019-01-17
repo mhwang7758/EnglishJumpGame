@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mhwang.englishjumpgame.GameView
+        android:layout_width="match_parent"
+        android:id="@+id/gv_gameView"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/iv_setting"
+        android:background="@drawable/setting_selector"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_large"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn_restart"
+        android:visibility="gone"
+        android:background="@drawable/circle_button_selector"
+        android:text="@string/restart"/>
+</RelativeLayout>

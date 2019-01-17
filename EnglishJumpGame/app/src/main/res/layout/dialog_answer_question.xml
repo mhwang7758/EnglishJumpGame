@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/normal_dialog"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_qNum"
+        android:layout_gravity="end"
+        android:textSize="@dimen/font_normal"
+        android:text="问题编号"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_noAnswer"
+        android:layout_gravity="center"
+        android:text="@string/hint_no_answer"
+        android:visibility="gone"
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="@dimen/margin_small"
+        android:gravity="start"
+        android:id="@+id/tv_question"
+        android:textSize="@dimen/font_large"
+        android:text="are you ok ?"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_normal"
+        android:hint="@string/hint_your_answer"
+        android:id="@+id/et_answer"/>
+
+
+    <include layout="@layout/layout_dialog_foot"
+        android:layout_height="wrap_content"
+             android:layout_marginTop="@dimen/margin_normal"
+        android:layout_width="wrap_content"/>
+</LinearLayout>
